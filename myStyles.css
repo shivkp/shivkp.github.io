@@ -1,0 +1,126 @@
+h3 {
+color: #8B008B;
+font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.part1 {
+	float: right;
+	color: black;
+}
+
+
+.aboutMe{
+	color:black;
+	font-family: 'Times';
+	text-align: center;
+	}
+	
+	
+	
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #7FB3D5;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+	text-transform: uppercase;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: ##76D7C4;
+}
+
+
+div.image {
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+div.panel {
+    padding: 0 18px;
+    background-image: url(greys.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+	font-size: 25px;
+	font-family: 'Abel', sans-serif;
+	font-family: 'Cinzel', serif;
+	font-family: 'EB Garamond', serif;
+}
+
+div.panel1 {
+    padding: 0 18px;
+    background-image: url(selgom.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+	font-size: 25px;	
+	font-family: 'Abel', sans-serif;
+	font-family: 'Cinzel', serif;
+	font-family: 'EB Garamond', serif;
+}
+div.panel2 {
+    padding: 0 18px;
+    background-image: url(jamaica.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+	font-size: 25px;
+	font-family: 'Abel', sans-serif;
+	font-family: 'Cinzel', serif;
+	font-family: 'EB Garamond', serif;
+}
+div.panel3 {
+    padding: 0 18px;
+    background-image: url(crew5.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+	font-size: 25px;
+	font-family: 'Abel', sans-serif;
+	font-family: 'Cinzel', serif;
+	font-family: 'EB Garamond', serif;
+}
+
+
+
+
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;
+}
+
+
+div.panel1.show {
+    opacity: 1;
+    max-height: 500px;
+}div.panel2.show {
+    opacity: 1;
+    max-height: 500px;
+}div.panel3.show {
+    opacity: 1;
+    max-height: 500px;
+}
+
+
+
