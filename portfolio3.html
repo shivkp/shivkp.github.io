@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href = "myStyles.css" rel = "stylesheet">
+	<link href='blue' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Abel|EB+Garamond|Cinzel' rel='stylesheet' type='text/css'>
+	<title>Other Stuff</title>
+	
+	<img src="gwcc.png" style="width:200px;height:100px, float-left">
+	
+	<body>
+		<body background = "back.jpg">
+		<p></p>
+		<center><select>
+		  <option value="Tv Shows">TV Shows</option>
+		  <option value="Celeberties">Celeberties</option>
+		  <option value="Places to go">Places to Go</option>
+		  <option value="Sports">Sports</option>
+		</select></center>
+		
+		<button class="accordion"><b><u>TV Shows</u></b></button>
+		<div class="panel">
+		  <p><li>The Bachelorette</li><li>Pretty Little Liars</li><li>Baby Daddy</li><li>Master Chef</li><li>Grey's Anatomy</li></p>
+		</div>
+
+		<button class="accordion"><b><u>Celeberties</b></u></button>
+		<div class="panel1">
+		  <p><li>Selena Gomez</li><li>Nick Jonas</li><li>Justin Bieber</li><li>Nyle Dimarco</li><li>Drake</li><li>Beyonce</li><li>Matt Damon</li></p>
+		</div>
+
+		<button class="accordion"><b><u>Vacations</b></u></button>
+		<div class="panel2">
+		  <p><li>Hawaii</li><li>Costa Rica</li><li>Punta Cana</li><li>Jamaica</li><li>Bahamas</li></p>
+		</div>
+		
+		<button class="accordion"><b><u>Sports</b></u></button>
+		<div class="panel3">
+		  <p><li>Dance</li><li>Soccer</li><li>Crew</li><li>Tae Kwon Do</li><li>Gymnastics</li></p>
+		</div>
+		
+		<div class="panel4">
+		</div>
+		
+		
+		<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+			acc[i].onclick = function(){
+				this.classList.toggle("active");
+				this.nextElementSibling.classList.toggle("show");
+			}
+		}
+		</script>
+		
+	</body>
+
+</head>
+</html>

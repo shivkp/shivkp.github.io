@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href = "myStyles.css" rel = "stylesheet">
+		<link href='blue' rel='stylesheet' type='text/css'>
+		<title>About Shivani</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<body>
+
+	<div class="w3-content" style="max-width:800px;position:relative">
+
+	</head>
+		<img src="gwcc.png" style="width:200px;height:100px, float-left">
+		<body background = "cute.jpg">
+		<center><h2><u><b>About Shivani</b></u></h1>
+		<center><h3><p>Shivani is starting her Senior Year at Rock Ridge High School in the fall of 2016.</p> <p>At Rock Ridge she is a part of the Rowing Team.</p> <p>Outside of school she pursues her passion of dance.</p></center></h3>
+		<img class= "pics" src="crew1.jpg" style="width:600px;height:600px, text-align: center">
+		<p></p>
+		<img class= "pics" src="crew2.jpg" style="width:600px;height:600px, text-align: center">
+		<p></p>
+		<img class= "pics" src="crew3.jpg" style="width:600px;height:600px, text-align: center">
+		<p></p>		
+		<img class= "pics" src="crew4.jpg" style="width:600px;height:600px, text-align: center">
+		<p></p>
+		<img class= "pics" src="crew5.jpg" style="width:600px;height:600px, text-align: center">
+		<p></p>
+		<img class= "pics" src="dance1.jpg" style="width:600px;height:600px, text-align: center">
+		<p></p>
+		<img class= "pics" src="dance2.jpg" style="width:600px;height:600px, text-align: center">
+		<a class="w3-btn-floating" onclick="plusDivs(-1)">&#10094;</a>
+		<a class="w3-btn-floating" onclick="plusDivs(+1)">&#10095;</a>
+		</div>
+
+		<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("pics");
+		  if (n > x.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+			 x[i].style.display = "none";
+		  }
+		  x[slideIndex-1].style.display = "block";
+		}
+		</script>
+
+		
+		<p></p>
+
+
+
+
+</body>
+</html>
